@@ -3,7 +3,7 @@
 
 Behavioral VHDL Implementation of the [Salsa20](https://cr.yp.to/snuffle.html) Stream Cipher
 
-Compilation/Simultation test suite using [GHDL](https://github.com/ghdl/ghdl) can be run:
+Compilation/Simulation test suite using [GHDL](https://github.com/ghdl/ghdl) can be run:
 
 `sh
 ./simulate.sh
@@ -12,10 +12,10 @@ Compilation/Simultation test suite using [GHDL](https://github.com/ghdl/ghdl) ca
 In addition to reporting success/failure, a VCD file is output which can be rendered with tools such as
 [Scansion](http://www.logicpoet.com/scansion/) and [GTKWave](http://gtkwave.sourceforge.net)
 
-Test vectors taken from the [offical paper](https://cr.yp.to/snuffle/spec.pdf) and generated with Python [Salsa20 NaCl bindings](https://pypi.org/project/salsa20/)
+Test vectors taken from the [official paper](https://cr.yp.to/snuffle/spec.pdf) and generated with Python [Salsa20 NaCl bindings](https://pypi.org/project/salsa20/)
 
 ### Complete
-From the offical paper:
+From the official paper:
  - quarterround function
  - rowround function
  - columnround function
