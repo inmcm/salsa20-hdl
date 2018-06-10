@@ -1,0 +1,4 @@
+*.o
+*.cf
+*.vcd
+salsa20_tests_tb
